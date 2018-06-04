@@ -8,20 +8,54 @@
 
 /* Begin PBXBuildFile section */
 		80BE5EC020C3E60900C6514F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BE5EBF20C3E60900C6514F /* AppDelegate.swift */; };
-		80BE5EC220C3E60900C6514F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BE5EC120C3E60900C6514F /* ViewController.swift */; };
+		80BE5EC220C3E60900C6514F /* mainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BE5EC120C3E60900C6514F /* mainVC.swift */; };
 		80BE5EC520C3E60900C6514F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80BE5EC320C3E60900C6514F /* Main.storyboard */; };
 		80BE5EC720C3E60A00C6514F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80BE5EC620C3E60A00C6514F /* Assets.xcassets */; };
 		80BE5ECA20C3E60B00C6514F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80BE5EC820C3E60B00C6514F /* LaunchScreen.storyboard */; };
+		80BE5ED920C3E9C800C6514F /* UIImageViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BE5ED720C3E9C800C6514F /* UIImageViewX.swift */; };
+		80BE5EDA20C3E9C800C6514F /* UIViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BE5ED820C3E9C800C6514F /* UIViewX.swift */; };
+		80BE5F1520C54EF100C6514F /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BE5F1420C54EF100C6514F /* RootViewController.swift */; };
+		80BE5F1720C54FC100C6514F /* UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BE5F1620C54FC100C6514F /* UIFont.swift */; };
+		80BE5F1A20C5502700C6514F /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BE5F1920C5502700C6514F /* UIColor+Extension.swift */; };
+		80BE5F2120C5506000C6514F /* TwitterConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BE5F1C20C5506000C6514F /* TwitterConstants.swift */; };
+		80BE5F2220C5506000C6514F /* ColorConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BE5F1D20C5506000C6514F /* ColorConstant.swift */; };
+		80BE5F2320C5506000C6514F /* CellConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BE5F1E20C5506000C6514F /* CellConstant.swift */; };
+		80BE5F2420C5506000C6514F /* completions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BE5F1F20C5506000C6514F /* completions.swift */; };
+		80BE5F2520C5506000C6514F /* URLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BE5F2020C5506000C6514F /* URLs.swift */; };
+		80BE5F2720C55B8800C6514F /* UIButtonX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BE5F2620C55B8800C6514F /* UIButtonX.swift */; };
+		80BE5F2920C56B1200C6514F /* SliderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BE5F2820C56B1200C6514F /* SliderCell.swift */; };
+		80BE5F2B20C56B8500C6514F /* SliderImg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BE5F2A20C56B8500C6514F /* SliderImg.swift */; };
+		80BE5F2D20C577C000C6514F /* UITextFieldX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BE5F2C20C577C000C6514F /* UITextFieldX.swift */; };
+		80BE5F2F20C57BE500C6514F /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BE5F2E20C57BE500C6514F /* LoginVC.swift */; };
+		AB5D6EFE7D4048E77D680818 /* Pods_EsaySchoolSystem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39B3D1048FE67ABC85A10A92 /* Pods_EsaySchoolSystem.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		15CB4E6BF2D62F5BA4D83AB4 /* Pods-EsaySchoolSystem.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EsaySchoolSystem.release.xcconfig"; path = "Pods/Target Support Files/Pods-EsaySchoolSystem/Pods-EsaySchoolSystem.release.xcconfig"; sourceTree = "<group>"; };
+		39B3D1048FE67ABC85A10A92 /* Pods_EsaySchoolSystem.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EsaySchoolSystem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		80BE5EBC20C3E60900C6514F /* EsaySchoolSystem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EsaySchoolSystem.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80BE5EBF20C3E60900C6514F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		80BE5EC120C3E60900C6514F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		80BE5EC120C3E60900C6514F /* mainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainVC.swift; sourceTree = "<group>"; };
 		80BE5EC420C3E60900C6514F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		80BE5EC620C3E60A00C6514F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80BE5EC920C3E60B00C6514F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		80BE5ECB20C3E60B00C6514F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80BE5ED720C3E9C800C6514F /* UIImageViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewX.swift; sourceTree = "<group>"; };
+		80BE5ED820C3E9C800C6514F /* UIViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewX.swift; sourceTree = "<group>"; };
+		80BE5F1420C54EF100C6514F /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		80BE5F1620C54FC100C6514F /* UIFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIFont.swift; sourceTree = "<group>"; };
+		80BE5F1920C5502700C6514F /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		80BE5F1C20C5506000C6514F /* TwitterConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterConstants.swift; sourceTree = "<group>"; };
+		80BE5F1D20C5506000C6514F /* ColorConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorConstant.swift; sourceTree = "<group>"; };
+		80BE5F1E20C5506000C6514F /* CellConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellConstant.swift; sourceTree = "<group>"; };
+		80BE5F1F20C5506000C6514F /* completions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = completions.swift; sourceTree = "<group>"; };
+		80BE5F2020C5506000C6514F /* URLs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLs.swift; sourceTree = "<group>"; };
+		80BE5F2620C55B8800C6514F /* UIButtonX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonX.swift; sourceTree = "<group>"; };
+		80BE5F2820C56B1200C6514F /* SliderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderCell.swift; sourceTree = "<group>"; };
+		80BE5F2A20C56B8500C6514F /* SliderImg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderImg.swift; sourceTree = "<group>"; };
+		80BE5F2C20C577C000C6514F /* UITextFieldX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextFieldX.swift; sourceTree = "<group>"; };
+		80BE5F2E20C57BE500C6514F /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		AF97D9BA902E030D192BBFEB /* Pods-EsaySchoolSystem.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EsaySchoolSystem.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EsaySchoolSystem/Pods-EsaySchoolSystem.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +63,34 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB5D6EFE7D4048E77D680818 /* Pods_EsaySchoolSystem.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4ADE062FB232E116CA374662 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AF97D9BA902E030D192BBFEB /* Pods-EsaySchoolSystem.debug.xcconfig */,
+				15CB4E6BF2D62F5BA4D83AB4 /* Pods-EsaySchoolSystem.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		80BE5EB320C3E60900C6514F = {
 			isa = PBXGroup;
 			children = (
+				80BE5F1B20C5506000C6514F /* Constants */,
+				80BE5F1820C5500F00C6514F /* extentions */,
+				80BE5ED520C3E65B00C6514F /* helper */,
+				80BE5ED420C3E65600C6514F /* API */,
+				80BE5ED320C3E65100C6514F /* Model */,
 				80BE5EBE20C3E60900C6514F /* EsaySchoolSystem */,
 				80BE5EBD20C3E60900C6514F /* Products */,
+				4ADE062FB232E116CA374662 /* Pods */,
+				C1231184DB6C206063B19B95 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +105,104 @@
 		80BE5EBE20C3E60900C6514F /* EsaySchoolSystem */ = {
 			isa = PBXGroup;
 			children = (
+				80BE5F1320C54EB600C6514F /* RootClass */,
+				80BE5ED620C3E9C800C6514F /* DesignableX */,
+				80BE5ED220C3E64B00C6514F /* View */,
+				80BE5ED120C3E64600C6514F /* Controller */,
 				80BE5EBF20C3E60900C6514F /* AppDelegate.swift */,
-				80BE5EC120C3E60900C6514F /* ViewController.swift */,
-				80BE5EC320C3E60900C6514F /* Main.storyboard */,
 				80BE5EC620C3E60A00C6514F /* Assets.xcassets */,
-				80BE5EC820C3E60B00C6514F /* LaunchScreen.storyboard */,
 				80BE5ECB20C3E60B00C6514F /* Info.plist */,
 			);
 			path = EsaySchoolSystem;
+			sourceTree = "<group>";
+		};
+		80BE5ED120C3E64600C6514F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				80BE5EC120C3E60900C6514F /* mainVC.swift */,
+				80BE5F2E20C57BE500C6514F /* LoginVC.swift */,
+				80BE5F2820C56B1200C6514F /* SliderCell.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		80BE5ED220C3E64B00C6514F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				80BE5EC320C3E60900C6514F /* Main.storyboard */,
+				80BE5EC820C3E60B00C6514F /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		80BE5ED320C3E65100C6514F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				80BE5F2A20C56B8500C6514F /* SliderImg.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		80BE5ED420C3E65600C6514F /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		80BE5ED520C3E65B00C6514F /* helper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = helper;
+			sourceTree = "<group>";
+		};
+		80BE5ED620C3E9C800C6514F /* DesignableX */ = {
+			isa = PBXGroup;
+			children = (
+				80BE5F2620C55B8800C6514F /* UIButtonX.swift */,
+				80BE5F2C20C577C000C6514F /* UITextFieldX.swift */,
+				80BE5ED720C3E9C800C6514F /* UIImageViewX.swift */,
+				80BE5F1620C54FC100C6514F /* UIFont.swift */,
+				80BE5ED820C3E9C800C6514F /* UIViewX.swift */,
+			);
+			path = DesignableX;
+			sourceTree = "<group>";
+		};
+		80BE5F1320C54EB600C6514F /* RootClass */ = {
+			isa = PBXGroup;
+			children = (
+				80BE5F1420C54EF100C6514F /* RootViewController.swift */,
+			);
+			path = RootClass;
+			sourceTree = "<group>";
+		};
+		80BE5F1820C5500F00C6514F /* extentions */ = {
+			isa = PBXGroup;
+			children = (
+				80BE5F1920C5502700C6514F /* UIColor+Extension.swift */,
+			);
+			path = extentions;
+			sourceTree = "<group>";
+		};
+		80BE5F1B20C5506000C6514F /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				80BE5F1C20C5506000C6514F /* TwitterConstants.swift */,
+				80BE5F1D20C5506000C6514F /* ColorConstant.swift */,
+				80BE5F1E20C5506000C6514F /* CellConstant.swift */,
+				80BE5F1F20C5506000C6514F /* completions.swift */,
+				80BE5F2020C5506000C6514F /* URLs.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		C1231184DB6C206063B19B95 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39B3D1048FE67ABC85A10A92 /* Pods_EsaySchoolSystem.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +212,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 80BE5ECE20C3E60B00C6514F /* Build configuration list for PBXNativeTarget "EsaySchoolSystem" */;
 			buildPhases = (
+				C4545554C1A4B34186CC373A /* [CP] Check Pods Manifest.lock */,
 				80BE5EB820C3E60900C6514F /* Sources */,
 				80BE5EB920C3E60900C6514F /* Frameworks */,
 				80BE5EBA20C3E60900C6514F /* Resources */,
+				8F83B716126EA57D4CE2E0B7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,12 +273,74 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8F83B716126EA57D4CE2E0B7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-EsaySchoolSystem/Pods-EsaySchoolSystem-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Agrume/Agrume.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/BouncyLayout/BouncyLayout.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Agrume.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BouncyLayout.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EsaySchoolSystem/Pods-EsaySchoolSystem-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4545554C1A4B34186CC373A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EsaySchoolSystem-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		80BE5EB820C3E60900C6514F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80BE5EC220C3E60900C6514F /* ViewController.swift in Sources */,
+				80BE5F1A20C5502700C6514F /* UIColor+Extension.swift in Sources */,
+				80BE5F2420C5506000C6514F /* completions.swift in Sources */,
+				80BE5F2120C5506000C6514F /* TwitterConstants.swift in Sources */,
+				80BE5F2220C5506000C6514F /* ColorConstant.swift in Sources */,
+				80BE5F2F20C57BE500C6514F /* LoginVC.swift in Sources */,
+				80BE5F2320C5506000C6514F /* CellConstant.swift in Sources */,
+				80BE5F2720C55B8800C6514F /* UIButtonX.swift in Sources */,
+				80BE5F1520C54EF100C6514F /* RootViewController.swift in Sources */,
+				80BE5F2B20C56B8500C6514F /* SliderImg.swift in Sources */,
+				80BE5ED920C3E9C800C6514F /* UIImageViewX.swift in Sources */,
+				80BE5F2920C56B1200C6514F /* SliderCell.swift in Sources */,
+				80BE5F2520C5506000C6514F /* URLs.swift in Sources */,
+				80BE5F1720C54FC100C6514F /* UIFont.swift in Sources */,
+				80BE5F2D20C577C000C6514F /* UITextFieldX.swift in Sources */,
+				80BE5EDA20C3E9C800C6514F /* UIViewX.swift in Sources */,
+				80BE5EC220C3E60900C6514F /* mainVC.swift in Sources */,
 				80BE5EC020C3E60900C6514F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,15 +483,13 @@
 		};
 		80BE5ECF20C3E60B00C6514F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF97D9BA902E030D192BBFEB /* Pods-EsaySchoolSystem.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MU6FK3PG77;
 				INFOPLIST_FILE = EsaySchoolSystem/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.EsaySchoolSystem;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -296,15 +499,13 @@
 		};
 		80BE5ED020C3E60B00C6514F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15CB4E6BF2D62F5BA4D83AB4 /* Pods-EsaySchoolSystem.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MU6FK3PG77;
 				INFOPLIST_FILE = EsaySchoolSystem/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.EsaySchoolSystem;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
